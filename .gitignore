@@ -1,0 +1,9 @@
+*.o
+*.a
+*.dia
+*.build
+xcuserdata
+IDEWorkspaceChecks.plist
+
+# Final product
+*.dylib
