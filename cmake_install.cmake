@@ -34,15 +34,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/eloy/Code/ReactNative/Hermes/build/external/llvh/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/utils/hermes-lit/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/tools/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/include/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/lib/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/external/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/unittests/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/API/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/jsi/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/external/llvh/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/utils/hermes-lit/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/tools/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/include/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/lib/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/external/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/unittests/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/API/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/jsi/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/eloy/Code/ReactNative/Hermes/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

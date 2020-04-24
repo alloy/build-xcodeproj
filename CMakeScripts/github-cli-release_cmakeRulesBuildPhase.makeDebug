@@ -2,14 +2,14 @@
 # Custom rules for github-cli-release
 .SUFFIXES: 
 all: \
-	/Users/eloy/Code/ReactNative/Hermes/build/github/hermes-cli-darwin-v0.5.0.tar.gz
+	/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/github/hermes-cli-darwin-v0.5.0.tar.gz
 
 
-/Users/eloy/Code/ReactNative/Hermes/build/github/hermes-cli-darwin-v0.5.0.tar.gz: \
-/Users/eloy/Code/ReactNative/Hermes/build/bin/Debug/hermes\
-/Users/eloy/Code/ReactNative/Hermes/build/bin/Debug/hermesc\
-/Users/eloy/Code/ReactNative/Hermes/build/bin/Debug/hdb\
-/Users/eloy/Code/ReactNative/Hermes/build/bin/Debug/hbcdump\
-/Users/eloy/Code/ReactNative/Hermes/build/bin/Debug/hermes-repl
-	cd /Users/eloy/Code/ReactNative/Hermes/build/bundle && /usr/local/Cellar/cmake/3.15.3/bin/cmake -E copy /Users/eloy/Code/ReactNative/Hermes/build/bin/Debug/hermes /Users/eloy/Code/ReactNative/Hermes/build/bin/Debug/hermes-repl /Users/eloy/Code/ReactNative/Hermes/build/bin/Debug/hermesc /Users/eloy/Code/ReactNative/Hermes/build/bin/Debug/hdb /Users/eloy/Code/ReactNative/Hermes/build/bin/Debug/hbcdump .
-	cd /Users/eloy/Code/ReactNative/Hermes/build/bundle && /usr/local/Cellar/cmake/3.15.3/bin/cmake -E tar zcf /Users/eloy/Code/ReactNative/Hermes/build/github/hermes-cli-darwin-v0.5.0.tar.gz .
+/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/github/hermes-cli-darwin-v0.5.0.tar.gz: \
+/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Debug/hermes\
+/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Debug/hermesc\
+/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Debug/hdb\
+/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Debug/hbcdump\
+/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Debug/hermes-repl
+	cd /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bundle && /usr/local/Cellar/cmake/3.15.3/bin/cmake -E copy /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Debug/hermes /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Debug/hermes-repl /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Debug/hermesc /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Debug/hdb /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Debug/hbcdump .
+	cd /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bundle && /usr/local/Cellar/cmake/3.15.3/bin/cmake -E tar zcf /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/github/hermes-cli-darwin-v0.5.0.tar.gz .

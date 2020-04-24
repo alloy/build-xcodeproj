@@ -5,9 +5,9 @@ empty:=
 space:= $(empty) $(empty)
 spaceplus:= $(empty)\ $(empty)
 
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/eloy/Code/ReactNative/Hermes/build/CMakeFiles/3.15.3/CMakeCCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/eloy/Code/ReactNative/Hermes/build/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/eloy/Code/ReactNative/Hermes/build/CMakeFiles/3.15.3/CMakeSystem.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/CMakeFiles/3.15.3/CMakeCCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/CMakeFiles/3.15.3/CMakeSystem.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/eloy/Code/ReactNative/Hermes/src/API/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/eloy/Code/ReactNative/Hermes/src/API/hermes/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/eloy/Code/ReactNative/Hermes/src/API/jsi/jsi/CMakeLists.txt))
@@ -195,5 +195,5 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.15
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.15.3/share/cmake/Modules/Platform/Darwin.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.15.3/share/cmake/Modules/Platform/UnixPaths.cmake))
 
-/Users/eloy/Code/ReactNative/Hermes/build/CMakeFiles/cmake.check_cache: $(TARGETS)
+/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/CMakeFiles/cmake.check_cache: $(TARGETS)
 	/usr/local/Cellar/cmake/3.15.3/bin/cmake -H/Users/eloy/Code/ReactNative/Hermes/src -B/Users/eloy/Code/ReactNative/Hermes/build

@@ -47,25 +47,25 @@ add_executable(native-hermesc IMPORTED)
 # Import target "native-hermesc" for configuration "Debug"
 set_property(TARGET native-hermesc APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(native-hermesc PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/Users/eloy/Code/ReactNative/Hermes/build/bin/Debug/hermesc"
+  IMPORTED_LOCATION_DEBUG "/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Debug/hermesc"
   )
 
 # Import target "native-hermesc" for configuration "Release"
 set_property(TARGET native-hermesc APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(native-hermesc PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/Users/eloy/Code/ReactNative/Hermes/build/bin/Release/hermesc"
+  IMPORTED_LOCATION_RELEASE "/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/Release/hermesc"
   )
 
 # Import target "native-hermesc" for configuration "MinSizeRel"
 set_property(TARGET native-hermesc APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(native-hermesc PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "/Users/eloy/Code/ReactNative/Hermes/build/bin/MinSizeRel/hermesc"
+  IMPORTED_LOCATION_MINSIZEREL "/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/MinSizeRel/hermesc"
   )
 
 # Import target "native-hermesc" for configuration "RelWithDebInfo"
 set_property(TARGET native-hermesc APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(native-hermesc PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/Users/eloy/Code/ReactNative/Hermes/build/bin/RelWithDebInfo/hermesc"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bin/RelWithDebInfo/hermesc"
   )
 
 # This file does not depend on other imported targets which have

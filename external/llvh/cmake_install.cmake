@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/eloy/Code/ReactNative/Hermes/build/external/llvh/lib/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/external/llvh/utils/FileCheck/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/external/llvh/utils/not/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/external/llvh/utils/count/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/external/llvh/utils/unittest/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/external/llvh/lib/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/external/llvh/utils/FileCheck/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/external/llvh/utils/not/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/external/llvh/utils/count/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/external/llvh/utils/unittest/cmake_install.cmake")
 
 endif()
 

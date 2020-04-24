@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/eloy/Code/ReactNative/Hermes/build/external/dtoa/cmake_install.cmake")
-  include("/Users/eloy/Code/ReactNative/Hermes/build/external/zip/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/external/dtoa/cmake_install.cmake")
+  include("/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/external/zip/cmake_install.cmake")
 
 endif()
 

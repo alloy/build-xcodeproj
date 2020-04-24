@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/eloy/Code/ReactNative/Hermes/build/CMakeFiles/ZERO_CHECK
+	/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/CMakeFiles/ZERO_CHECK
 
 
-/Users/eloy/Code/ReactNative/Hermes/build/CMakeFiles/ZERO_CHECK: 
+/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/eloy/Code/ReactNative/Hermes/build/CMakeScripts/ReRunCMake.make
+	make -f /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/CMakeScripts/ReRunCMake.make

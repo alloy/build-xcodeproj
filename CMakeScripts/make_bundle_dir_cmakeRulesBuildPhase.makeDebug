@@ -2,8 +2,8 @@
 # Custom rules for make_bundle_dir
 .SUFFIXES: 
 all: \
-	/Users/eloy/Code/ReactNative/Hermes/build/bundle
+	/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bundle
 
 
-/Users/eloy/Code/ReactNative/Hermes/build/bundle: 
-	/usr/local/Cellar/cmake/3.15.3/bin/cmake -E make_directory /Users/eloy/Code/ReactNative/Hermes/build/bundle
+/Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bundle: 
+	/usr/local/Cellar/cmake/3.15.3/bin/cmake -E make_directory /Users/eloy/Code/ReactNative/Hermes/build-xcodeproj/bundle
